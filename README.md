@@ -125,8 +125,8 @@ model_name = "emilyyy04/xlm-roberta-base-burmese-nli"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
-premise = "ကျွန်ုပ်တို့နဲ့ ပူးပေါင်းဖို့ နိုင်ငံတိုင်းကိုတောင်းဆိုပါတယ်။"
-hypothesis = "ငါတို့ ဒါကို တစ်ယောက်တည်း လုပ်မယ်!"
+premise = "သူမသည် ဆေးရုံတွင် ဆရာဝန်အဖြစ် အလုပ်လုပ်နေသည်။"
+hypothesis = "သူမသည် ကျန်းမာရေးလုပ်ငန်းတွင် အလုပ်လုပ်နေသည်။"
 
 inputs = tokenizer(
     premise,
