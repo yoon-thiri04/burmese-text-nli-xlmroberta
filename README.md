@@ -1,4 +1,3 @@
-
 # MyanmarNLI: Burmese Natural Language Inference with XLM-RoBERTa
 
 A **Burmese Natural Language Inference (NLI)** model fine-tuned from **`xlm-roberta-base`**, trained on a curated Burmese NLI dataset combining cleaned native data, manual annotations, and translated English NLI samples.
