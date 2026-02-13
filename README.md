@@ -7,7 +7,9 @@ This model predicts the relationship between a **premise** and a **hypothesis** 
 * **Entailment**
 * **Neutral**
 * **Contradiction**
-
+# Model & Demo
+- Model => https://huggingface.co/emilyyy04/xlm-roberta-base-burmese-nli-v3
+- Space Demo Link => https://huggingface.co/spaces/emilyyy04/burmese-text-nli-xlmroberta
 ## Model Details
 
 * **Base model:** `xlm-roberta-base`
@@ -18,11 +20,11 @@ This model predicts the relationship between a **premise** and a **hypothesis** 
 ---
 ## Dataset
 
-The model is trained on an **~8K Burmese NLI dataset**, prepared from:
+The model is trained on an **~10K Burmese NLI dataset**, prepared from:
 
 * Cleaned Burmese NLI data (source: *[(https://huggingface.co/datasets/akhtet/myanmar-xnli)]*)
 * Additional **manually created** samples
-* **Translated English NLI** data for diversity
+* **Translated English NLI** (SNLI, multiNLI) data for diversity
 
 ### Dataset Structure
 
