@@ -44,8 +44,6 @@ and the dataset is prepared from:
 
 ## Preprocessing
 
-Since a pretrained multilingual LLM is used, **no manual tokenization** (word-level or syllable-level) is applied.
-
 Steps:
 
 1. **Unicode normalization** (NFC)
