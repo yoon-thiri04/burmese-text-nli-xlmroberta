@@ -1,6 +1,6 @@
 # mmNLI: Burmese Text Natural Language Inference with XLM-RoBERTa
 
-A **Burmese Natural Language Inference (NLI)** model fine-tuned from **`xlm-roberta-base`**, trained on a curated Burmese NLI dataset combining cleaned native data, manual annotations, and translated English NLI samples.
+A **Burmese NLI model** fine-tuned from xlm-roberta-base, trained on a carefully cleaned and curated dataset, achieving **79%** accuracy on the test set.
 
 This model predicts the relationship between a **premise** and a **hypothesis** as one of:
 
@@ -178,11 +178,14 @@ print("Confidence:", {k: round(float(probs[i]), 3) for i, k in label_map.items()
 ```
 ---
 ## Our Team
-This project is part of our Semester-8 CS-502 Natural Language Processing course.
-| Yoon Thiri Aung | Leader         | https://github.com/yoon-thiri04 |
 
-|     Soe Sett Lynn | Member    | https://github.com/ssettlynn |
-|     Thura Aung | Member       | - |
+This project is part of our Semester-8 **CS-502 Natural Language Processing** course.
+
+| Name            | Role   | GitHub |
+|-----------------|--------|--------|
+| Yoon Thiri Aung | Leader | https://github.com/yoon-thiri04 |
+| Soe Sett Lynn   | Member | https://github.com/ssettlynn |
+| Thura Aung      | Member | - |
 
 ## Limitations & Future Work
 
