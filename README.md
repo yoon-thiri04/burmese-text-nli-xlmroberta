@@ -35,8 +35,7 @@ and the dataset is prepared from:
 * By clearning Burmese NLI data (source: *[(https://huggingface.co/datasets/akhtet/myanmar-xnli)]*) and additional **manually created** samples.
 * **Translated English NLI**  data for diversity.
 * Most samples follow a **1 premise → 3 hypotheses** structure. Each hypothesis has a **different NLI label**.
-* An  **`genre`** field is included
-  - Intended for **future zero-shot / cross-genre experiments** later.
+* An  **`genre`** field is included intended for **future zero-shot / cross-genre experiments** later.
 ## Preprocessing
 
 Steps:
