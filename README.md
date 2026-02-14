@@ -153,8 +153,8 @@ model_name = "emilyyy04/xlm-roberta-base-burmese-nli"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
-premise = "သူမသည် ဆေးရုံတွင် ဆရာဝန်အဖြစ် အလုပ်လုပ်နေသည်။"
-hypothesis = "သူမသည် ကျန်းမာရေးလုပ်ငန်းတွင် အလုပ်လုပ်နေသည်။"
+premise = "ဟုတ်တယ်ဗျခင်ဗျားပြောတာမှန်တယ်အခုခေတ်မှာလူငယ်တွေကနည်းပညာကိုအရင်ကထက်ပိုပြီးကျွမ်းကျင်လာကြတော့အလုပ်အကိုင်အခွင့်အလမ်းသစ်တွေအများကြီးပေါ်လာတာပေါ့"
+hypothesis = "နည်းပညာတိုးတက်လာတာကလူငယ်တွေအတွက်အခွင့်အလမ်းကောင်းတွေဖြစ်စေတယ်"
 
 inputs = tokenizer(
     premise,
