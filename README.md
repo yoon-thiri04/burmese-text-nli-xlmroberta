@@ -177,6 +177,13 @@ print("Confidence:", {k: round(float(probs[i]), 3) for i, k in label_map.items()
 
 ```
 ---
+## Our Team
+This project is part of our Semester-8 CS-502 Natural Language Processing course.
+| Yoon Thiri Aung | Leader         | https://github.com/yoon-thiri04 |
+
+|     Soe Sett Lynn | Member    | https://github.com/ssettlynn |
+|     Thura Aung | Member       | - |
+
 ## Limitations & Future Work
 
 * Genre-aware and **zero-shot classification** is planned but not yet implemented
