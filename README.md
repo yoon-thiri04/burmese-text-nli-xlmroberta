@@ -184,7 +184,7 @@ This project is part of our Semester-8 **CS-502 Natural Language Processing** co
 |-----------------|--------|--------|
 | Yoon Thiri Aung | Leader | https://github.com/yoon-thiri04 |
 | Soe Sett Lynn   | Member | https://github.com/ssettlynn |
-| Thura Aung      | Member | - |
+| Thura Aung      | Member | https://github.com/ThuraAung-Rayaar |
 
 ## Limitations & Future Work
 
