@@ -32,9 +32,9 @@ The dataset consists of **~10k [10,443] samples** across three classes:
 
 and the dataset is prepared from:
 
-* Cleaned Burmese NLI data (source: *[(https://huggingface.co/datasets/akhtet/myanmar-xnli)]*) and additional **manually created** samples.
-* **Translated English NLI** (SNLI, multiNLI) data for diversity
-* Most samples follow a **1 premise → 3 hypotheses** structure. Each hypothesis has a **different NLI label**
+* By clearning Burmese NLI data (source: *[(https://huggingface.co/datasets/akhtet/myanmar-xnli)]*) and additional **manually created** samples.
+* **Translated English NLI**  data for diversity.
+* Most samples follow a **1 premise → 3 hypotheses** structure. Each hypothesis has a **different NLI label**.
 * An  **`genre`** field is included
   - Intended for **future zero-shot / cross-genre experiments** later.
 ## Preprocessing
