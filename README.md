@@ -20,7 +20,7 @@ This model predicts the relationship between a **premise** and a **hypothesis** 
 * **Labels:** `entailment`, `neutral`, `contradiction`
 * **Framework:** Transformers / PyTorch
 ---
-## Dataset
+## Dataset and its Structure
 
 The dataset consists of **~10k [10,443] samples** across three classes:
 
@@ -35,9 +35,6 @@ and the dataset is prepared from:
 * Cleaned Burmese NLI data (source: *[(https://huggingface.co/datasets/akhtet/myanmar-xnli)]*)
 * Additional **manually created** samples
 * **Translated English NLI** (SNLI, multiNLI) data for diversity
-
-### Dataset Structure
-
 * Most samples follow a **1 premise → 3 hypotheses** structure
 * Each hypothesis has a **different NLI label**
 * An additional **`genre`** field is included
