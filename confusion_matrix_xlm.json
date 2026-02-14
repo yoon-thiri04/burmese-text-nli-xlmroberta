@@ -1,0 +1,9 @@
+{
+  "labels_order": ["entailment", "neutral", "contradiction"],
+  "matrix": [
+    [481, 50, 18],
+    [78, 418, 20],
+    [14, 20, 476]
+  ],
+  "description": "Rows represent true labels, columns represent predicted labels."
+}
