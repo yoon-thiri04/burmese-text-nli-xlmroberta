@@ -20,7 +20,13 @@ This model predicts the relationship between a **premise** and a **hypothesis** 
 ---
 ## Dataset
 
-The model is trained on an **~10K Burmese NLI dataset**, prepared from:
+The dataset consists of 10,443 Natural Language Inference (NLI) samples across three classes:
+
+Label	Class	Count
+0	Entailment	3,608
+1	Neutral	3,466
+2	Contradiction	3,369
+and the dataset is prepared from:
 
 * Cleaned Burmese NLI data (source: *[(https://huggingface.co/datasets/akhtet/myanmar-xnli)]*)
 * Additional **manually created** samples
@@ -135,7 +141,8 @@ inputs = tokenizer(
     hypothesis,
     return_tensors="pt",
     truncation=True,
-    padding=True
+    padding=True,
+    max_length=128
 )
 
 outputs = model(**inputs)
