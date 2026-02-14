@@ -79,7 +79,7 @@ Instead of random shuffling:
 
 The model was trained using **Hugging Face Transformers** with the following key configurations:
 
-* **Model:** XLM-RoBERTa (NLI fine-tuning)
+* **Model:** facebook/xlm-roberta-base
 * **Epochs:** Up to **10 epochs**
 * **Early Stopping:** Enabled (patience = 1)
 * **Learning Rate:** `1.5e-5`
@@ -101,8 +101,6 @@ The model performance is evaluated using:
 * **Accuracy**
 * **Macro F1-score**
 
----
-
 ## Training Results
 
 | Epoch | Train Loss | Val Loss | Accuracy |     F1 |
@@ -114,9 +112,8 @@ The model performance is evaluated using:
 |     5 |     0.3848 |   0.6434 |   0.7646 | 0.7646 |
 |     6 |     0.3564 |   0.7296 |   0.7608 | 0.7607 |
 
-Training stopped early at **epoch 6** due to validation performance plateau.
+Training stopped early at **epoch 6** due to validation performance plateau and the best model saved is at the f1 score of 0.7646.
 
----
 
 ## Test Set Performance
 
@@ -127,8 +124,6 @@ Training stopped early at **epoch 6** due to validation performance plateau.
   "eval_f1": 0.7876
 }
 ```
-
----
 
 ## Confusion Matrix on Test Set
 
@@ -141,8 +136,6 @@ Label order: **entailment, neutral, contradiction**
 ```
 
 Rows represent **true labels**, columns represent **predicted labels**.
-
----
 
 ## Classification Report (Test Set)
 
